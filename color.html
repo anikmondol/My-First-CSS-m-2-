@@ -5,11 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Explore Basic CSS</title>
     <style>
+        #Short{
+            color: red;
+            text-align: center;
+        }
         p{
             background-color: rgb(108, 108, 199);
+            /* width: 500px; */
+            width: 50%;
         }
         li{
             color: rgb(10, 137, 216);
+        }
+        #embedded{
+            font-size: large;
+            font-weight: bolder;
+        }
+        .player{
+            text-align: center;
         }
     </style>
 </head>
@@ -18,13 +31,15 @@
     <h4 style="background-color: brown;">Inline CSS</h4>
     <p>CSS Meaning: Cascading Style Sheet</p>
     <p>Style is colorful</p>
-    <p>Short form is CSS</p>
-    <p>Needs style rule and value separated by colon(;)</p>
-    <p>after each styles you need to use semi-colon(;)</p>
+    <p id="Short">Short form is CSS</p>
+    <p class="player">Needs style rule and value separated by colon(;)</p>
+    <p class="player">after each styles you need to use semi-colon(;)</p>
+    <p class="player">crick fun</p>
     <ul>
         <li>inline</li>
-        <li>Internal or Embeded</li>
+        <li id="embedded">Internal or Embedded</li>
         <li>External</li>
     </ul>
+    <p>This is stand alone paragraph</p>
 </body>
 </html>
