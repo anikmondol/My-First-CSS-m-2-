@@ -1,3 +1,20 @@
+.header{
+    height: 1000px;
+    /* background-color: antiquewhite; */
+    /* background-image: url('group-pic.jpg'); */
+    /* background-image: url('../images/IMG20210820131432.jpg'); */
+    background-image: url('../images/images/20220305003619_IMG_9079.JPG');
+    background-size:  700px 600px;
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y;  */
+    /* background-size: cover; */
+    /* background-size: contain; */
+
+}
+
+
+
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
